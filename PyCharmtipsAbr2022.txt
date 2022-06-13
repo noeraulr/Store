@@ -1,0 +1,41 @@
+ 
+While debugging, you may need an interactive console at hand... This is mostly easy. During debugging, switch to the Debugger Console, and then press the lowest button in its toolbar.
+The console becomes interactive and it shows a prompt, where you can enter commands and view output.
+
+
+ 
+To quickly open any class, field, or function in the editor, press Ctrl+Alt+Mayús+N (Navigate | Symbol) and start typing its name.
+
+PrintOUTS
+ 
+To make your printouts (File | Print) nice and informative, use keywords.
+For example, use $DATE$ and $TIME$ to specify the exact date and time of the printout.
+
+ 
+Use Alt+Mayús+C to quickly review recent changes to the project.
+
+ 
+Manage your projects efficiently with YouTrack. If you have a YouTrack instance, you can use the YouTrack Integration plugin to work with your issues directly in PyCharm Community.
+ 
+YouTrack is free for teams of 10 forever. Try YouTrack. 
+
+ 
+You can open an external file for editing by dragging it from a file browser to the editor.
+
+You can close tabs in the editor and PyCharm Community tool windows without using the context menu commands. Click the tab that you want to close with the middle mouse button. Also, you can click the tab while pressing Shift. 
+
+ 
+To evaluate any expression while debugging your program, select the expression in the editor and press Alt+F8.                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+
+
+ 
+When searching for a text string in a file, use recent search history. Press Ctrl+F to open the search pane and then press Alt+Abajo to show the list of recent entries.
+
+ 
+When choosing a live template from a suggestion list, press Ctrl+Q to view quick documentation - to be sure you make the right choice:
+
+ 
+You can edit a language injection in your code using a dedicated editor.
+For example, to edit a regular expression, start typing it, press Alt+Intro and choose Edit RegExp Fragment. The regular expression opens in a separate tab in the editor, where you can type backslashes as is.
+All changes are synchronized with the original regular expression, and escape characters are presented automatically. When ready, press Escape to close the regular expression editor.
+   

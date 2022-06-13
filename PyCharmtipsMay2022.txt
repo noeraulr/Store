@@ -1,0 +1,73 @@
+ 
+If you don't like the color of your code, press Ctrl+Mayús+A, type Jump, and click Jump to Colors and Fonts. You will be taken to the settings page where you can modify the color of the code element at the caret.
+
+ 
+PyCharm Community lets you examine the differences between two versions of the same file. You can compare the following:
+a file modified locally with its repository version
+any two revisions of the same file (in the same or in different branches)
+a local file with its versions in Local History
+Learn more
+ 
+PyCharm Community allows configuring Python interpreters on the various stages of development:
+When a project is only being created (File | New Project, or Create New Project on the Welcome screen ).
+In an already existing project, use the Python Interpreter widget in the Status bar or select Project | Python Interpreter in the project Settings/Preferences.
+
+ 
+You can narrow down the list of code completion suggestions by using camel case prefixes.
+
+ 
+To quickly evaluate the value of any expression while debugging the program, hold Alt (Windows and Linux) or Alt(Option) (macOS) and click this expression to see its value and calculate it, call a method, and so on.
+
+What's new in PyCharm Community 2021.2
+ 
+When you invoke Basic Completion Ctrl+Espacio, PyCharm Community suggests the choices that are reachable from the current caret position. Press Ctrl+Espacio again to extend the suggestions list.
+If you use completion to discover a class name and this class has not been imported yet, the import statement is generated automatically.
+
+ 
+
+Python 3.10: Pattern matching
+Python 3.10: Allow writing union types as X | Y
+Ability to install Python packages from VCS or disc
+Doctest injection in Markdown to demonstrate the execution of Python code in REPL mode
+Ability to mark a folder as a Test Sources Root
+Auto-detecting a test runner installed on the selected Python interpreter
+Pytest improvements: managing the test output and swapping actual/expected values in pytest assertion failure messages
+User interface improvement: project icon customization and more actions on save
+You can get familiar with the main features of the IDE by following these tips. You can try out the features without closing this dialog. If you close it, you can always get back to it by selecting Help | Tip of the Day from the main menu.
+ 
+To compare any two files or folders, select them in the Project tool window and press Ctrl+D.
+
+ 
+Press Alt+Arriba and Alt+Abajo to quickly move between methods in the editor. 
+
+o return to the last place where you made changes in code, press Ctrl+Mayús+Retroceso or select Navigate | Last Edit Location from the main menu.
+If you press Ctrl+Mayús+Retroceso several times, you see later deeper into your changes history.
+
+ 
+You don't need to invoke quick documentation explicitly Ctrl+Q. If you hover your mouse pointer over the desired symbol, the quick documentation popup window will show automatically.
+To enable this feature, select the Show quick documentation on hover checkbox on the Editor | Code Editing page of the Settings/Preferences dialog Ctrl+Alt+S.
+
+ 
+When you use basic code completion Ctrl+Espacio, type any characters that exist anywhere in an identifier.
+
+ 
+Basic code completion Ctrl+Espacio is available in the search field when you search for text in the current file Ctrl+F, so there is no need to type the entire string.
+
+ 
+Right-click a breakpoint marker in the gutter to quickly enable/disable the breakpoint or adjust its properties.
+
+ 
+The navigation bar at the top is a quick alternative to the Project tool window where you can go through the structure of your project, open specific files, and jump to specific code elements in the current file.
+Press Alt+Inicio to show the navigation bar and use arrow keys to switch between files and folders.
+
+ 
+Adjust the PyCharm Community tool windows layout to make better use of your screen area.
+Toggle between the vertical and side-by-side placement of the tool windows by using Ctrl + Click on the splitter.
+
+To verify that your regular expression is correct, place the caret within the expression you want to check, press Alt+Intro, and select Edit RegExp.
+In the popup, type a sample string that should match your regular expression. The   icon shows that the match occurred.
+
+Get access to the most common breakpoint actions and filters through intention actions (Alt+Intro ).
+
+To quickly open any class in the editor, press Ctrl+N (Navigate | Class) and start typing the name of the class. Then, click the class from the suggestion list.
+     

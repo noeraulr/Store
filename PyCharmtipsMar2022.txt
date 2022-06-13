@@ -1,0 +1,85 @@
+ 
+You can customize the structure of import statements in your code. Imports can be placed separately, grouped by source, or left unstructured.
+To make your choice, go to Settings/Preferences (Ctrl+Alt+S, select Editor | Code style | Python, and select the corresponding checkbox under Structure of "from" imports.
+
+ 
+Use camel case in the Search Everywhere popup (double Shift) to filter the list of results when searching for a class, file, or symbol.
+
+ 
+Code Completion Ctrl+Espacio helps you quickly complete code statements. It works as you type and gives a list of suggestions available from the current caret position:
+
+ 
+You can jump to a file located in a deeply nested directory by pressing Ctrl+Mayús+N and typing several characters of the enclosing directories and filename. Use either a slash or a backslash as a delimiter.
+
+ 
+Spelling and grammar checks are enabled by default. These checks are provided by the Grazie plugin, which is bundled with the IDE. To configure proofreading settings, open settings by pressing Ctrl+Alt+S and navigate to Editor | Natural Languages | Grammar.
+All texts, including comments, textual strings and literals, are inspected against the pre-defined or custom dictionaries. Typos are highlighted so that you can choose the correct word, accept the current spelling, or disable the inspection.
+To fix a spelling or grammar error, press Alt+Intro to see the list of available actions.
+
+ 
+To close all editor tabs, right-click a tab and select Close All.
+To close all tabs except the active one, press Alt (Windows and Linux) or Alt(Option) (macOS) and click the Close button on the active tab. 
+
+ 
+To avoid accidentally removing breakpoints, you can choose to remove them by dragging them from the gutter. Press Ctrl+Alt+S, go to Build, Execution, Deployment | Debugger and select Drag to the editor or click with middle mouse button.
+Click a breakpoint to enable or disable it.
+
+
+To quickly find a menu command, setting, or an action, press Ctrl+Mayús+A (Help | Find Action ).
+
+ 
+When using Code Completion, you can select the first item by pressing Ctrl+..
+PyCharm Community will insert the selected item followed by a dot or -> depending on the current context.
+
+ 
+Press Ctrl+Mayús+V to select the text fragment that you have previously copied to the clipboard.
+
+ 
+The TODO tool window lets you preview each of the encountered TODO items - click   on the toolbar.
+
+ 
+You can override IDE code style settings with settings from EditorConfig (https://editorconfig.org/ ).
+To use EditorConfig settings, you must install and enable the EditorConfig plugin. To configure the style in EditorConfig, open settings (Ctrl+Alt+S ), navigate to Editor | Code Style and select the Enable EditorConfig support checkbox.
+To export the current IDE code style settings into the .editconfig file, click Export.
+ 
+
+ 
+P
+yCharm Community includes a built-in IDE Features Trainer. It provides interactive training courses to help you learn how to do some common tasks, such as refactoring code, navigating through projects, debugging, and working with version control.
+Make sure the IDE Features Trainer plugin is enabled in the Installed tab of the Plugins page in the IDE settings.
+To open the Learn tool window and start your exercises, select View | Tool Windows | Learn or Help | Learn IDE Features from the main menu. The tool window lists the available tutorials.
+
+ 
+
+
+You can easily rename your classes, methods, and variables with automatic correction of all places where they are used.
+Position the caret at the symbol you want to rename, and press Mayús+F6 (Refactor | Rename ). Type the new name and press Intro.
+ 
+Press Mayús+F6 again to open the Rename dialog that will allow you to search for the provided text in comments and strings.
+
+ 
+If you want to update a package for your Python interpreter to any pre-release version (such as beta or release candidate), click Show early releases in the Python Interpreter dialog (Settings/Preferences | Project | Project Interpreter ), then proceed with package updating.
+
+
+ 
+A special variant of the Code Completion feature invoked by pressing Ctrl+Espacio twice allows you to complete XML tag names from namespaces not declared in the current file. If the namespace is not declared yet, the declaration is generated automatically.
+
+ 
+If you are working on a large project containing numerous TODO items, you can filter these items by scopes.
+Use the Scope-Based tab in the TODO tool window to view only those items that pertain to the scope of interest.
+
+
+ 
+When you press Alt+Intro to invoke a quick-fix or an intention action, press the right arrow key to reveal the list of additional options. Depending on the context, you can choose to disable the inspection, fix all problems, change the inspection profile, and so on.
+
+ 
+To scroll a file horizontally, turn the mouse wheel while keeping Shift pressed.
+
+ 
+If you position the caret at a symbol and press Ctrl+Alt+Mayús+T, the list of refactorings that applicable to the current context will open.
+ 
+
+ 
+Local history lets you track all changes to files, classes, methods, or any code fragments and roll back to any stable point if necessary. To view local history, from the main menu choose VCS | Current File | Show History.
+
+   
