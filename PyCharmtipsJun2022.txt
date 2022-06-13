@@ -1,0 +1,24 @@
+ 
+If loading variables during debugging takes a long time, you might see the Loading timed out warning messages.
+Click the Switch to loading on demand link in the Variables window to switch to the mode when variables are loaded on user's request.
+ 
+ 
+You can quickly navigate in the currently edited file with Ctrl+F12 (Navigate | File Structure ).
+File structure shows the list of members of the current class. To navigate to an element, select the element and press Intro or F4.
+To easily locate an item in the list, start typing its name.
+
+ 
+To quickly open a file, press Ctrl+Mayús+N (Navigate | File) and start typing its name. Use the filter icon to only search among the selected file types:
+
+
+To join two lines into one and remove unnecessary spaces, press Ctrl+Mayús+J.
+
+To quickly find and run an inspection, press Ctrl+Alt+Mayús+I and start typing the name of the inspection or its group. Choose an inspection from the suggestion list and specify the scope.
+
+ 
+You can rename CSS selectors directly in HTML. Position the caret at the selector to be renamed and press Mayús+F6.
+
+Git annotations show detailed information on the origin of each line of code (right-click the gutter and select Annotate with Git Blame ).
+Right-click an annotation and choose Show Diff to review the differences between the current and the previous version of the file.
+
+ 
